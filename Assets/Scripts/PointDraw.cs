@@ -12,7 +12,7 @@ int node;
     {   
         for (var i = 0; i < envoControl.spriteShape.spline.GetPointCount(); i++)
         {
-            prefabs=Instantiate(prefabs,prefabs.transform.position,transform.rotation);
+            prefabs=Instantiate(prefabs,envoControl.spriteShape.transform.InverseTransformPoint(envoControl.spriteShape.spline.GetPosition(i)),transform.rotation);
           
            
         }

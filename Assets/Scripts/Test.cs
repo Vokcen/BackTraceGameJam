@@ -33,15 +33,14 @@ public class Test : MonoBehaviour
         
          distance = 5;
         distance = ForLoop(distance);
-       
+        Instantiate(sphere,spriteShape.spline.GetPosition(node),transform.rotation);
         startPosition = spriteShape.spline.GetPosition(node);
-        startHeight = spriteShape.spline.GetHeight(node);
            
    
     }
     public void AddPoint(Vector3 worldPosition)
     {
-
+            ///////spriteShape.spline.GetSpriteIndex(node);
 
        // endPosition = spriteShape.transform.InverseTransformPoint(worldPosition);
 
@@ -60,9 +59,9 @@ public class Test : MonoBehaviour
     }
 
     public float ForLoop(float distance)
-    {
+    { 
         for (int i = 0; i < spriteShape.spline.GetPointCount(); i++)
-        {
+        {  
             Vector3 pointPosition = spriteShape.spline.GetPosition(i);
             tempDistance = Vector3.Distance(endPosition, pointPosition);
              
@@ -87,7 +86,7 @@ public class Test : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(transform.position, tempDistance);
+    
 
     }
 }
