@@ -1,0 +1,114 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'tr' Physical Memory: 16218 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/GitHubUnity/BackTraceGameJam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50797
+Successfully changed project path to: E:/GitHubUnity/BackTraceGameJam
+E:/GitHubUnity/BackTraceGameJam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHubUnity/BackTraceGameJam/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5167
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004137 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4261.
+Total: 2.991000 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.198100 ms MarkObjects: 2.265400 ms  DeleteObjects: 0.132700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NoiseSettings.asset
+  artifactKey: Guid(dd0434c81ec27ce46bd6069d67c779d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NoiseSettings.asset using Guid(dd0434c81ec27ce46bd6069d67c779d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48d84c04ba575d19d59b9cdb77347cd') in 0.030609 seconds
+  Import took 0.037076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(eea5d57b910e3a94e93d0a4ac988bf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(eea5d57b910e3a94e93d0a4ac988bf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb47eb9c40e580ce412d30c2a39ffaa5') in 0.009609 seconds
+  Import took 0.015724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.044380 seconds.
+  path: Assets/Scripts/CharacterController2D.cs
+  artifactKey: Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController2D.cs using Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06e6d94aab75c560b2c5a6299b032e4') in 0.016590 seconds
+  Import took 0.021995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.409474 seconds.
+  path: Assets/Scripts/CharacterController2D.cs
+  artifactKey: Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController2D.cs using Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f31d919b1961298df6fe860fceaef83') in 0.003396 seconds
+  Import took 0.010736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.412257 seconds.
+  path: Assets/Scripts/CharacterController2D.cs
+  artifactKey: Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController2D.cs using Guid(c87d517a70cb82546a15a901057e0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d7ee047351471146291b2902eb5f2') in 0.002587 seconds
+  Import took 0.010016 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
