@@ -33,9 +33,10 @@ public class Test : MonoBehaviour
         
          distance = 5;
         distance = ForLoop(distance);
-        Instantiate(sphere,spriteShape.spline.GetPosition(node),transform.rotation);
+        
         startPosition = spriteShape.spline.GetPosition(node);
            
+           DOTween.To(AnimatePosition, 0, 1, 0.5f);
    
     }
     public void AddPoint(Vector3 worldPosition)
@@ -49,7 +50,7 @@ public class Test : MonoBehaviour
        
       //  startPosition = spriteShape.spline.GetPosition(node);
        // startHeight = spriteShape.spline.GetHeight(node);
-        DOTween.To(AnimatePosition, 0, 1, 0.5f);
+      
 
 
 
@@ -70,9 +71,7 @@ public class Test : MonoBehaviour
             {
                 distance = tempDistance;
                 node = i;
-                Debug.Log(i);
-                Debug.DrawLine(endPosition, pointPosition);
-                Debug.Log(tempDistance);
+             
 
             }
         }
